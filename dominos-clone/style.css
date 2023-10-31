@@ -1,0 +1,33 @@
+.navbar-brand{
+    color: rgb(38, 215, 228);
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: beige;
+    border: 1% solid;
+}
+.card-footer > a{
+    color: #de042e;
+    text-decoration: none;
+    font-size: small;
+    font-weight: bold;
+}
+.downloads{
+    background-color: #f2f5fc;
+}
+#offer-titile{
+    font-size: 2.5rem;
+    letter-spacing: 0.15;
+    color: #59688c;
+    text-transform: none;
+    font-weight: bold;
+}
+#offer-desc{
+    font-size: 27px;
+    line-height: 43px;
+    letter-spacing: 0.24px;
+    color: #8899c0;
+    max-width: 80%;
+}
+p,a{
+    text-decoration: none;
+}

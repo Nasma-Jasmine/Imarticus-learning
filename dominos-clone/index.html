@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+<link rel="icon" href="icon.svg"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-info bg-info">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">DOMINO's</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 float-end">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="https://www.google.com/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.dominos.co.in/">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <button class="btn btn-outline-primary me-2" type="button">Login</button>
+          <button class="btn btn-outline-primary bg-danger" type="button">Register</button>
+      </div>
+    </div>
+  </nav>
+  <section class="hero-section">
+    <div class="container">
+      <div class="row mt-2">
+        <div class="col-md-6 my-auto fs-1 fst-italic ">
+          <h1>Domino's</h1>
+          <p class="font-monospace fs-4">Yummy pizza delivered fast & fresh</p>
+        </div>
+        <div class="col-md-6 ">
+          <img height="100%" width="100%" src="img.svg" alt="Yummy Pizza's" />
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+ <section>
+  <div class="container">
+    <h2>Coupons & Offers</h2>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner my-5">
+        <div class="carousel-item active">
+          
+          <div class="row">
+            <div class="col-4">
+              <img src="amazon.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-4">
+              <img src="paytm.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-4">
+              <img src="mobi.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-4">
+              <img src="au.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-4">
+              <img src="payzapp.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-4">
+              <img src="freecharge.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-4">
+              <img src="airtel.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-4">
+              <img src="amazon.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-4">
+              <img src="paytm.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+ </section>
+
+  <section id="explore">
+    <div class="container">
+      <h1>Explore</h1>
+      <div class="row pt-4">
+        <div class="col-md-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img height="100" width="100" src="menu.jpg" alt="menu-bar" />
+              <h3 class="card-title pt-2">Our Menu</h3>
+              <p class="card-text pt-3 pb-3">Explore our range of pizzas  delivered in 30 minutes </p>
+              <div class="card-footer">
+                <a href="#">Discover pizza</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img height="100" width="100" src="store.jpg" alt="Store-bar" />
+              <h3 class="card-title pt-1">Nearby Store</h3>
+              <p class="card-text pt-3 pb-3">Find a Domino's pizza restaruant near you.</p>
+              <div class="card-footer">
+                <a href="#">Find Domino's Store</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img height="100" width="100" src="birthday.jpg" alt="Store-bar" />
+              <h3 class="card-title pt-1">Birthday Party</h3>
+              <p class="card-text pt-3 pb-3">Celebrate the joy of birthday with fresh & hot pizza's.</p>
+              <div class="card-footer">
+                <a href="#">Book Now</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img height="100" width="100" src="catering.jpg" alt="Store-bar" />
+              <h3 class="card-title pt-1">Catering</h3>
+              <p class="card-text pt-3 pb-3">live Domino's kitchen for weddings/corporate events.</p>
+              <div class="card-footer">
+                <a href="#">Book Now</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="downloads">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6 pt-5 ps-2">
+            <img src="https://www.dominos.co.in/assets/new_app_img.png" alt="">
+          </div>
+          <div class="col-md-6 ps-5" style="padding-top: 18vh;">
+            <h2 id="offer-title">Unlock Exclusive Offers</h2>
+            <p class="pt-2" id="offer-desc">For lightning fast ordering experience download the Domino’s app</p>
+            <div class="pt-5">
+              <img class="btn" src="https://www.dominos.co.in/assets/play_store.png" alt="">
+              <img class="btn" src="https://www.dominos.co.in/assets/app_store.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><br><br>
+  <section id="explore">
+    <div class="container">
+      <h1 class="text-center bg-info text-light">Domino's Menu</h1>
+      <div class="row pt-4">
+        <div class="col-md-4 bg-info">
+          <div class="card text-center bg-info">
+            <div class="card-body">
+              <h3 class="text-light">VEG PIZZA</h3>
+              <img height="400" width="350" src="veg.jpg" alt="menu-bar" />
+              
+              <p class="card-text pt-3 pb-3 text-light">A delight for veggie lovers! Choose from our wide range of delicious vegetarian pizzas, it's softer and tastier</p>
+              <div class="card-footer">
+                <a href="https://www.dominos.co.in/menu/veg-pizzas">View All</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-4 bg-info">
+          <div class="card text-center bg-info text-light">
+            <div class="card-body">
+              <h3 class="text-light">NON-VEG PIZZA</h3>
+              <img height="400" width="350" src="non.jpg" alt="menu-bar" />
+              
+              <p class="card-text pt-3 pb-3 text-light">Choose your favourite non-veg pizzas from the Domino's Pizza menu. Get fresh non-veg pizza with your choice of crusts</p>
+              <div class="card-footer">
+                <a href="https://www.dominos.co.in/menu/non-veg-pizzas">View All</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-4 bg-info">
+          <div class="card text-center bg-info">
+            <div class="card-body">
+              <h3 class="text-light">PASTA MANIA</h3>
+              <img height="400" width="350" src="mania.jpg" alt="menu-bar" />
+              
+              <p class="card-text pt-3 pb-3 text-light">Indulge into mouth-watering taste of Pizza mania range, perfect answer to all your food cravings</p>
+              <div class="card-footer">
+                <a href="https://www.dominos.co.in/menu/pizza-mania">View All</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+      <div class="row pt-4">
+        <div class="col-md-4 bg-info">
+          <div class="card text-center bg-info">
+            <div class="card-body">
+              <h3 class="text-light">SIDES & BEVERAGES</h3>
+              <img height="400" width="350" src="sides.jpg" alt="menu-bar" />
+              
+              <p class="card-text pt-3 pb-3 text-light">Complement your pizza with wide range of sides & beverages available at Domino's Pizza India</p>
+              <div class="card-footer">
+                <a href="https://www.dominos.co.in/menu/side-orders">View All</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-4 bg-info">
+          <div class="card text-center bg-info">
+            <div class="card-body">
+              <h3 class="text-light">PASTA</h3>
+              <img height="400" width="350" src="pasta.jpg" alt="menu-bar" />
+              
+              <p class="card-text pt-3 pb-3 text-light">Choose your favourite pizza pasta from the Domino's pasta menu. Get fresh non-veg pasta</p>
+              <div class="card-footer">
+                <a href="https://www.dominos.co.in/menu/pasta">View All</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-4 bg-info">
+          <div class="card text-center bg-info">
+            <div class="card-body">
+              <h3 class="text-light">MASALA PASTA VEG</h3>
+              <img height="400" width="350" src="paneer.jpg" alt="menu-bar" />
+              
+              <p class="card-text pt-3 pb-3 text-light">Instant Fusilli Pasta, Spicy Red dressing, Onion, Paneer Tikka, Parsley sprinkle pizza's. </p>
+              <div class="card-footer">
+                <a href="https://www.dominos.co.in/menu/pasta">View All</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+    </div>
+      
+    </section>
+
+<footer class="text-center text-lg-start bg-white text-muted">
+ 
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+ 
+    <div class="ms-5 d-none d-lg-block float-end">
+      <span>Social networks:</span>
+    </div>
+  
+
+    <!-- Right -->
+    <div>
+      <a href="https://www.facebook.com/" class="me-4 link-secondary">
+        <i class="fa-brands fa-facebook fa-beat-fade" style="color: blue;"></i>
+      </a>
+      <a href="https://www.twitter.com/" class="me-4 link-secondary">
+        <i class="fa-brands fa-twitter fa-beat-fade" style="color:skyblue;"></i>
+      </a>
+      <a href="https://www.youtube.com/" class="me-4 link-secondary">
+        <i class="fa-brands fa-youtube fa-beat-fade" style="color:red;"></i>
+      </a>
+      <a href="https://www.instagram.com/" class="me-4 link-secondary">
+        <i class="fa-brands fa-instagram fa-beat-fade" style="color: #f218b7;"></i>
+      </a>
+
+    
+    </div>
+
+  </section>
+
+
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <div class="row mt-2">
+        <div class="col-md-2 col-lg-3 col-xl-3 mx-auto mb-3">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-3">
+            <i class="fas fa-gem me-3 text-secondary"></i>Menu
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Veg pizza</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Chickan pizza</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Pasta</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Burgar pizza</a>
+          </p>
+        </div>
+        
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-2">
+          <h6 class="text-uppercase fw-bold mb-4">
+            Company
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Blog</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Invester</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Feedback</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Ads</a>
+          </p>
+        </div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            PIZZA RESTARUANTS
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Restaruant nearme</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Food nearme</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Food Delivery</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Order Food Online</a>
+          </p>
+        </div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+        
+          <h6 class="text-uppercase fw-bold mb-4">
+            ABOUT
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Gift Card</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Card balance enquiry</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">FAQ</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Virtual pizza party</a>
+          </p>
+        </div>
+      
+  </section>
+  
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(12, 170, 190, 0.938);">
+    All Rights Reserved. Copyright © Jubilant FoodWorks Ltd.
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+crossorigin="anonymous"
+></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" 
+integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" 
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="main.js" type="text/javascript">
+</script>
+
+</body>
+</html>
